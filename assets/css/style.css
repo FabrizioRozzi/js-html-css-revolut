@@ -5,8 +5,9 @@
 //////////////////////////////////////////////
 ////////////////////////////////////////////// */
 *{
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
+  max-width: 1200px;
   box-sizing: border-box;
   font-family: 'Lato', sans-serif;
 }
@@ -17,13 +18,13 @@ header{
 
 .container-20{
   display: flex;
-  width: 20%;
+  width: 30%;
   height: 100px;
 }
 
 .container-40{
   display: flex; 
-  width: 40%;
+  width: 35%;
   height: 100px;
 }
 
@@ -43,10 +44,9 @@ header{
 }
 
 ul{
-  display: flex;
-  list-style: none;
-  font-size: 23px;
   
+  list-style: none;
+  font-size: 20px;  
 }
 
 
@@ -58,6 +58,10 @@ ul{
 
 .left img{
   height: 50px;
+}
+
+.left ul{
+  display: flex;
 }
 
 .left ul li a{
@@ -77,10 +81,15 @@ ul{
 //////////////////////////////////////////////
 ////////////////////////////////////////////// */
 
+.center ul{
+  display: flex;
+}
+
 .center ul li a{
   padding: 0 20px;
   text-decoration: none;
   color: #CED5DB;
+  position: relative;
 }
 
 .btn-grey{
@@ -99,6 +108,58 @@ ul{
   color:#191C1F;
 }
 
+.active{
+  display: flex;
+}
+
+
+/* //////////////////////////////////////////////
+//////////////////////////////////////////////
+////////////////   DROP-FEATURES   ////////////////
+//////////////////////////////////////////////
+////////////////////////////////////////////// */
+
+.drop-features{
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  left: 35%;
+  top:6%;
+  width: 60%;
+  max-width: 830px;
+  height: 300px;
+  border-radius: 15px;
+  background-color: blue;
+  display: none;
+}
+
+.drop-features h3{
+  padding: 20px 0;
+}
+
+.drop-features div ul{
+  display: block;
+}
+
+.drop-features ul li{
+  padding: 15px 0 15px 0;
+}
+
+
+
+/* //////////////////////////////////////////////
+//////////////////////////////////////////////
+////////////////   DROP-PLANS   ////////////////
+//////////////////////////////////////////////
+////////////////////////////////////////////// */
+
+.drop-plans{
+  width: 150px;
+  height: 250px;
+  background-color: blueviolet;
+}
+
+
 
 
 /* //////////////////////////////////////////////
@@ -109,8 +170,8 @@ ul{
 .right a{
   padding: 0 20px;
   text-decoration: none;
-  line-height: 50px;
-  font-size: 23px;
+  line-height: 40px;
+  font-size: 20px;
 }
 
 .btn-grey{
