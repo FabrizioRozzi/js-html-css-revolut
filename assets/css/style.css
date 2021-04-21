@@ -1,16 +1,133 @@
+
+/* //////////////////////////////////////////////
+//////////////////////////////////////////////
+////////////////   GENERALI   ////////////////
+//////////////////////////////////////////////
+////////////////////////////////////////////// */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
 header{
   display: flex;
 }
-.container-50{
+
+.container-20{
   display: flex;
-  
-  width: 50%;
+  width: 20%;
   height: 100px;
-  background-color: aqua;
 }
+
+.container-40{
+  display: flex; 
+  width: 40%;
+  height: 100px;
+}
+
 .left{
-  justify-content: flex-start;
+  justify-content: space-around;
+  align-items: center;
 }
-.right{
+
+.center{
   justify-content: flex-end;
+  align-items: center;
+}
+
+.right{
+  justify-content: space-around;
+  align-items: center;
+}
+
+ul{
+  display: flex;
+  list-style: none;
+  font-size: 23px;
+  
+}
+
+
+/* //////////////////////////////////////////////
+//////////////////////////////////////////////
+////////////////   LEFT   ////////////////
+//////////////////////////////////////////////
+////////////////////////////////////////////// */
+
+.left img{
+  height: 50px;
+}
+
+.left ul li a{
+  padding-right: 40px;
+  text-decoration: none;
+  color: #CED5DB;
+}
+
+.left ul li a:hover{
+  color:#191C1F;
+}
+
+
+/* //////////////////////////////////////////////
+//////////////////////////////////////////////
+////////////////   CENTER   ////////////////
+//////////////////////////////////////////////
+////////////////////////////////////////////// */
+
+.center ul li a{
+  padding: 0 20px;
+  text-decoration: none;
+  color: #CED5DB;
+}
+
+.btn-grey{
+  border-radius: 5px;
+  background-color: lightgray;
+  color: black;
+}
+
+.btn-black{
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+}
+
+.center ul li a:hover{
+  color:#191C1F;
+}
+
+
+
+/* //////////////////////////////////////////////
+//////////////////////////////////////////////
+////////////////   RIGHT   ////////////////
+//////////////////////////////////////////////
+////////////////////////////////////////////// */
+.right a{
+  padding: 0 20px;
+  text-decoration: none;
+  line-height: 50px;
+  font-size: 23px;
+}
+
+.btn-grey{
+  border-radius: 10px;
+  background-color: lightgray;
+  color: black;
+}
+
+.btn-black{
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+}
+
+.btn-black:hover{
+  background-color: #3E4043;
+}
+.btn-grey:hover{
+  background-color: #EBEBEB;
 }
