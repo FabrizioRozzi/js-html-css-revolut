@@ -1,0 +1,16 @@
+header{
+  display: flex;
+}
+.container-50{
+  display: flex;
+  
+  width: 50%;
+  height: 100px;
+  background-color: aqua;
+}
+.left{
+  justify-content: flex-start;
+}
+.right{
+  justify-content: flex-end;
+}
