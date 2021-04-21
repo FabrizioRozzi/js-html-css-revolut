@@ -49,6 +49,15 @@ ul{
   font-size: 20px;  
 }
 
+h3{
+  padding: 20px 0;
+}
+
+.active{
+  display: flex;
+}
+
+
 
 /* //////////////////////////////////////////////
 //////////////////////////////////////////////
@@ -108,56 +117,31 @@ ul{
   color:#191C1F;
 }
 
-.active{
-  display: flex;
-}
-
 
 /* //////////////////////////////////////////////
 //////////////////////////////////////////////
-////////////////   DROP-FEATURES   ////////////////
+////////////////   DROP-MENU   ////////////////
 //////////////////////////////////////////////
 ////////////////////////////////////////////// */
 
-.drop-features{
+.drop-menu{
   display: flex;
-  justify-content: space-between;
   position: absolute;
-  left: 35%;
   top:6%;
-  width: 60%;
-  max-width: 830px;
-  height: 300px;
   border-radius: 15px;
-  background-color: blue;
+  background-color: blueviolet;
   display: none;
 }
 
-.drop-features h3{
-  padding: 20px 0;
-}
-
-.drop-features div ul{
+.drop-menu ul{
   display: block;
 }
 
-.drop-features ul li{
+.drop-menu ul li{
   padding: 15px 0 15px 0;
 }
 
 
-
-/* //////////////////////////////////////////////
-//////////////////////////////////////////////
-////////////////   DROP-PLANS   ////////////////
-//////////////////////////////////////////////
-////////////////////////////////////////////// */
-
-.drop-plans{
-  width: 150px;
-  height: 250px;
-  background-color: blueviolet;
-}
 
 
 
